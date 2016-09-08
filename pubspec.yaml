@@ -1,0 +1,11 @@
+name: gitignore
+version: 0.1.0-dev
+author: Matan Lurey <matanl@google.com>
+description: gitignore generator for new Dart applications
+homepage: https://github.com/matanlurey/github
+dependencies:
+  path: '>=1.0.0 <2.0.0'
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
+executables:
+  gitignore: generate

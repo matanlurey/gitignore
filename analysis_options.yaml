@@ -1,0 +1,14 @@
+analyzer:
+  strong-mode: true
+linter:
+  rules:
+    - avoid_empty_else
+    - control_flow_in_finally
+    - empty_statements
+    - throw_in_finally
+    - valid_regexps
+    - avoid_init_to_null
+    - avoid_return_types_on_setters
+    - empty_catches
+    - empty_constructor_bodies
+    - library_prefixes
