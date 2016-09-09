@@ -28,9 +28,9 @@ const String _source = r'''
 .buildlog
 .packages
 .project
-.pub/
-build/
-**/packages/
+.pub
+**/build
+**/packages
 
 # Files created by dart2js
 # (Most Dart developers will use pub build to compile Dart, use/modify these
@@ -50,5 +50,6 @@ doc/api/
 # (Library packages only! Remove pattern if developing an application package)
 pubspec.lock
 
+*.iml
 .idea
 ''';
